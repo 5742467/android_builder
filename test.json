@@ -3,15 +3,13 @@
   "spider": "http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt;md5;a4bf71ea71185b7815d3e94d591a7c51",
 
   "lives": [
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "redirect",
-          "urls": ["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L2xpdmUudHh0"]
-        }
-      ]
-    }
+   {
+name: "live",
+type: 0,
+url: "http://ftp6284928.host108.abeiyun.cn/live/live.txt",
+epg: "http://epg.112114.xyz/?ch={name}&date={date}",
+logo: "https://epg.112114.xyz/logo/{name}.png"
+}
   ],
 
   "sites": [
